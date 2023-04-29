@@ -1,6 +1,4 @@
-FROM backend-portfolio:1.8
-
-MAINTAINER FireDust97
+FROM backend-portfolio:18
 
 COPY target/firedust-0.0.1-SNAPSHOT.jar firedust-0.0.1-SNAPSHOT.jar
 
