@@ -1,5 +1,7 @@
-FROM backend-portfolioargprog:8
+FROM amazoncorretto:11-alpine-jdk
 
-COPY target/firedust-0.0.1-SNAPSHOT.jar app.jar
+MAINTAINER FireDust97
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+COPY target/firedust-0.0.1-SNAPSHOT.jar backend-portfolioargprog.jar
+
+entrypoint ["java","-jar","/backend-portfolioargprog.jar"]
