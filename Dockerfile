@@ -1,4 +1,4 @@
-FROM amazoncorretto:8
+FROM amazoncorretto:17-alpine
 
 MAINTAINER FireDust97
 
