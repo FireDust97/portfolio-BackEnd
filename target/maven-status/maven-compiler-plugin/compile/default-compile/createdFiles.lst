@@ -32,4 +32,3 @@ com\portfolioargprog\firedust\Security\Dto\JwtDto.class
 com\portfolioargprog\firedust\Security\MainSecurity.class
 com\portfolioargprog\firedust\Security\jwt\JwtTokenFilter.class
 com\portfolioargprog\firedust\Interface\PersonaServiceInterface.class
-com\portfolioargprog\firedust\WebConfig.class
