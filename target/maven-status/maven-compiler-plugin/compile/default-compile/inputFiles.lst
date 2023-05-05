@@ -4,11 +4,11 @@ E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\fired
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Security\Service\RolService.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Security\Dto\NuevoUsuario.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Security\Controller\AuthController.java
+E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Dto\dtoPersona.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Entity\Experiencia.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Security\Dto\LoginUsuario.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Controller\PersonaController.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\FiredustApplication.java
-E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Interface\PersonaServiceInterface.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Security\Repository\UsuarioRepositoryInterface.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Controller\ExperienciaController.java
 E:\Argentina Programa\TP Final\Back-End\src\main\java\com\portfolioargprog\firedust\Service\ExperienciaService.java

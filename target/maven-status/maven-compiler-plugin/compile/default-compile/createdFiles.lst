@@ -7,6 +7,7 @@ com\portfolioargprog\firedust\Security\Repository\RolRepositoryInterface.class
 com\portfolioargprog\firedust\Controller\ExperienciaController.class
 com\portfolioargprog\firedust\Controller\PersonaController.class
 com\portfolioargprog\firedust\Dto\dtoExperiencia.class
+com\portfolioargprog\firedust\Dto\dtoPersona.class
 com\portfolioargprog\firedust\Repository\PersonaRepositoryInterface.class
 com\portfolioargprog\firedust\Entity\Persona.class
 com\portfolioargprog\firedust\Security\Entity\Usuario.class
@@ -31,4 +32,3 @@ com\portfolioargprog\firedust\Security\Controller\AuthController.class
 com\portfolioargprog\firedust\Security\Dto\JwtDto.class
 com\portfolioargprog\firedust\Security\MainSecurity.class
 com\portfolioargprog\firedust\Security\jwt\JwtTokenFilter.class
-com\portfolioargprog\firedust\Interface\PersonaServiceInterface.class
