@@ -12,23 +12,33 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
-    private String aniosE;
+    private String aniosE1;
+    private String aniosE2;
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE, String aniosE) {
+    public Experiencia(String nombreE, String descripcionE, String aniosE1, String aniosE2) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
-        this.aniosE = aniosE;
+        this.aniosE1 = aniosE1;
+        this.aniosE2 = aniosE2;
     }
 
-    public String getAniosE() {
-        return aniosE;
+    public String getAniosE2() {
+        return aniosE2;
     }
 
-    public void setAniosE(String aniosE) {
-        this.aniosE = aniosE;
+    public void setAniosE2(String aniosE2) {
+        this.aniosE2 = aniosE2;
+    }
+
+    public String getAniosE1() {
+        return aniosE1;
+    }
+
+    public void setAniosE1(String aniosE1) {
+        this.aniosE1 = aniosE1;
     }
 
     public int getId() {
