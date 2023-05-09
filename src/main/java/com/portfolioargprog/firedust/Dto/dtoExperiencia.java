@@ -7,13 +7,24 @@ public class dtoExperiencia {
     private String nombreE;
     @NotBlank
     private String descripcionE;
+    @NotBlank
+    private String aniosE;
 
     public dtoExperiencia() {
     }
 
-    public dtoExperiencia(String nombreE, String descripcionE) {
+    public dtoExperiencia(String nombreE, String descripcionE, String aniosE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
+        this.aniosE = aniosE;
+    }
+
+    public String getAniosE() {
+        return aniosE;
+    }
+
+    public void setAniosE(String aniosE) {
+        this.aniosE = aniosE;
     }
 
     public String getNombreE() {
