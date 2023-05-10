@@ -61,7 +61,7 @@ public class EducacionController {
             return new ResponseEntity(new Mensaje("El nombre proporcionado ya existe en la base de datos."), HttpStatus.BAD_REQUEST);
         }
         
-        Educacion educacion = new Educacion(dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE());
+        Educacion educacion = new Educacion(dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE(), dtoeducacion.getAniosE1(), dtoeducacion.getAniosE2());
         educacionService.save(educacion);
         return new ResponseEntity(new Mensaje("Educación creada con éxito"), HttpStatus.OK);
     }
@@ -82,6 +82,8 @@ public class EducacionController {
         
         educacion.setNombreE(dtoeducacion.getNombreE());
         educacion.setDescripcionE(dtoeducacion.getDescripcionE());
+        educacion.setAniosE1(dtoeducacion.getAniosE1());
+        educacion.setAniosE2(dtoeducacion.getAniosE2());
         
         educacionService.save(educacion);
         
